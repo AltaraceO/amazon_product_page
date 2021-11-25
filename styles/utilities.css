@@ -1,0 +1,29 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-background-dark: #131921;
+  --nav-background-light: #232f3e;
+  --search-orange: #f2a847;
+  --add-yellow: #f7ca00;
+  --buy-orange: #fa8800;
+  --font-orange: #cc6600;
+  --card-text-blue: #007185;
+  --inStock-green: #007600;
+}
+
+@font-face {
+  font-family: "amazon";
+  src: url(/assets/fonts/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+}
+
+body {
+  font-family: "amazon";
+  /* font-size: 62.5%; */
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
