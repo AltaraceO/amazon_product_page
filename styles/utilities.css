@@ -46,7 +46,6 @@ td {
 .tbody {
   display: table-row-group;
   vertical-align: middle;
-  border-color: inherit;
 }
 
 .header-links {
@@ -76,4 +75,15 @@ td {
 main {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.blue-link {
+  font-size: 14px;
+  color: var(--card-text-blue);
+  cursor: pointer;
+}
+
+.blue-link:hover {
+  text-decoration: underline;
+  color: var(--font-orange);
 }

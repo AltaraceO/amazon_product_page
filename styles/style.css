@@ -136,7 +136,7 @@ header {
 
 .threeMain {
   display: flex;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 .images {
@@ -146,13 +146,6 @@ header {
   position: relative;
   /* height: 100%; */
   overflow: hidden;
-}
-
-.item_description_container {
-  flex-grow: 2;
-  background-color: turquoise;
-  min-width: 244px;
-  max-width: 400px;
 }
 
 .shopping_details_container {
@@ -168,6 +161,7 @@ header {
 .thumb-1 {
   position: absolute;
   top: 80px;
+  left: 8px;
 }
 .large-1 {
   display: none;
@@ -182,6 +176,7 @@ header {
 .thumb-2 {
   position: absolute;
   top: 30px;
+  left: 8px;
 }
 .large-2 {
   display: none;
@@ -210,6 +205,7 @@ header {
 .thumb-3 {
   position: absolute;
   top: 130px;
+  left: 8px;
 }
 .large-3 {
   display: none;
@@ -220,4 +216,76 @@ header {
 
 .thumb-3:hover ~ .large-3 {
   display: block;
+}
+
+.item_description_container {
+  flex-grow: 2;
+  /* background-color: turquoise; */
+  display: flex;
+  flex-direction: column;
+  min-width: 244px;
+  max-width: 400px;
+  margin-right: 30px;
+}
+
+.item_description_container h1 {
+  font-family: "amazon";
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.stars-ratings-review {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.stars-ratings-review p {
+  font-size: 12px;
+  color: var(--card-text-blue);
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.stars-stars {
+  background: url("/assets/imgs/sprites/aui-mini-sprite-2015-02.png") no-repeat -16px
+    0;
+  width: 80px;
+  height: 15px;
+  display: inline-block;
+}
+
+.price {
+  font-size: 12px;
+  line-height: 20px;
+  color: #565959;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0;
+}
+
+.red-price {
+  font-size: 15px;
+  line-height: 24px;
+  color: #b12704;
+}
+
+.style-body {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.bold-table-data {
+  font-weight: 700;
+}
+.features h4 {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.features ul {
+  padding-inline-start: 14px;
+  font-size: 12px;
+  line-height: 17px;
 }
