@@ -7,6 +7,7 @@
 :root {
   --nav-background-dark: #131921;
   --nav-background-light: #232f3e;
+  --nav-bottom-ligth: #fafafa;
   --search-orange: #f2a847;
   --add-yellow: #f7ca00;
   --buy-orange: #fa8800;
@@ -20,10 +21,14 @@
   src: url(/assets/fonts/amazon-ember-cufonfonts/Amazon\ Ember.ttf);
 }
 
+@font-face {
+  font-family: "amazon-bold";
+  src: url(/assets/fonts/amazon-ember-cufonfonts/Amazon\ Ember\ Bold.ttf);
+}
+
 body {
   font-family: "amazon";
-  /* font-size: 62.5%; */
-  font-size: 30px;
+  font-size: 62.5%;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -42,4 +47,33 @@ td {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
+}
+
+.header-links {
+  border: transparent solid 1px;
+  margin: 1px 2px 1px 1px;
+  padding: 5px 8px;
+}
+
+.header-links:hover {
+  border: white solid 1px;
+  border-radius: 2px;
+}
+
+.bottom-head-links {
+  margin: 0 10px;
+  font-size: 10px;
+  padding: 7px;
+  border-bottom: transparent 2px solid;
+  cursor: pointer;
+}
+
+.bottom-head-links:hover {
+  color: var(--font-orange);
+  border-bottom: var(--font-orange) 2px solid;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
 }
