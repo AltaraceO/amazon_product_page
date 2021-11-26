@@ -141,8 +141,11 @@ header {
 
 .images {
   flex-grow: 1;
-  background-color: yellow;
+  background-color: transparent;
   min-width: 400px;
+  position: relative;
+  /* height: 100%; */
+  overflow: hidden;
 }
 
 .item_description_container {
@@ -155,4 +158,66 @@ header {
 .shopping_details_container {
   background-color: violet;
   min-width: 244px;
+}
+
+.thumbs {
+  width: 20%;
+  background-color: hotpink;
+}
+
+.thumb-1 {
+  position: absolute;
+  top: 80px;
+}
+.large-1 {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+.thumb-1:hover ~ .large-1 {
+  display: block;
+}
+.thumb-2 {
+  position: absolute;
+  top: 30px;
+}
+.large-2 {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+.thumb-2:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
+}
+.thumb-3:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
+}
+.thumb-1:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
+}
+
+.thumb-2:hover ~ .large-2 {
+  display: block;
+}
+
+.thumb-3 {
+  position: absolute;
+  top: 130px;
+}
+.large-3 {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.thumb-3:hover ~ .large-3 {
+  display: block;
 }
