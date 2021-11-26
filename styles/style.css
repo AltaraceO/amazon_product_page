@@ -144,18 +144,14 @@ header {
   background-color: transparent;
   min-width: 400px;
   position: relative;
-  /* height: 100%; */
   overflow: hidden;
 }
 
 .shopping_details_container {
-  background-color: violet;
+  border: 1px #d5d9d9 solid;
+  border-radius: 8px;
+  padding: 14px 18px;
   min-width: 244px;
-}
-
-.thumbs {
-  width: 20%;
-  background-color: hotpink;
 }
 
 .thumb-1 {
