@@ -48,8 +48,8 @@ header {
 
 .flag {
   background: url("/assets/imgs/sprites/flags.png") no-repeat -110px -218px;
-  width: 35px;
-  height: 25px;
+  width: 31px;
+  height: 20px;
 }
 .cart {
   display: flex;
@@ -134,7 +134,8 @@ header {
 
 .threeMain {
   display: flex;
-  /* height: 70vh; */
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid lightgray;
 }
 
 .images {
@@ -380,4 +381,95 @@ header {
   background-color: #ebedf0;
   border: grey 1px solid;
   border-radius: 2px;
+}
+
+.main-footer-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-title-title {
+  font-size: 16px;
+  line-height: 32px;
+  color: #cc6600;
+  font-weight: 700;
+}
+.page-placement {
+  font-size: 12px;
+}
+.sponsored {
+  font-size: 10px;
+  color: grey;
+}
+
+.carousel-container {
+  border: red 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  height: 284px;
+}
+
+.card {
+  /* border: springgreen solid 1px; */
+  width: 160px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 15px;
+  color: #007185;
+}
+
+.card-img {
+  max-width: 100%;
+  width: 160px;
+  height: 160px;
+  vertical-align: top;
+}
+
+.card-text {
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 12px;
+  height: 62px;
+}
+
+.stars-reviews {
+  width: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 20px;
+  gap: 5px;
+}
+
+.card-stars {
+  background: url("/assets/imgs/sprites/aui-mini-sprite-2015-02.png") no-repeat -17px
+    0;
+  width: 80px;
+  height: 15px;
+}
+
+.price-prime {
+  width: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 32px;
+}
+
+.card-price {
+  font-size: 19px;
+  color: #b12704;
+}
+
+.prime {
+  background: url("/assets/imgs/sprites/M9SSJsDj8YXHO4p.png") no-repeat -276px -151px;
+  width: 84px;
+  height: 19px;
 }

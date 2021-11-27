@@ -49,6 +49,10 @@ td {
 }
 
 .header-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border: transparent solid 1px;
   margin: 1px 2px 1px 1px;
   padding: 5px 8px;
@@ -73,6 +77,10 @@ td {
 }
 
 main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+footer {
   max-width: 1400px;
   margin: 0 auto;
 }
