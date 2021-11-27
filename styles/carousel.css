@@ -24,6 +24,7 @@
   width: 160px;
   height: 160px;
   vertical-align: top;
+  cursor: pointer;
 }
 
 .card-text {
@@ -31,6 +32,12 @@
   text-align: left;
   font-size: 12px;
   height: 62px;
+  cursor: pointer;
+}
+
+.card-text:hover {
+  text-decoration: underline;
+  color: var(--font-orange);
 }
 
 .stars-reviews {
@@ -41,6 +48,7 @@
   text-align: center;
   height: 20px;
   gap: 5px;
+  cursor: pointer;
 }
 
 .card-stars {
@@ -56,6 +64,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   height: 32px;
+  cursor: pointer;
 }
 
 .card-price {
