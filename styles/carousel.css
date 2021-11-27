@@ -1,0 +1,70 @@
+.carousel-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  height: 284px;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.card {
+  width: 160px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: 15px;
+  color: #007185;
+}
+
+.card-img {
+  max-width: 100%;
+  width: 160px;
+  height: 160px;
+  vertical-align: top;
+}
+
+.card-text {
+  word-wrap: break-word;
+  text-align: left;
+  font-size: 12px;
+  height: 62px;
+}
+
+.stars-reviews {
+  width: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 20px;
+  gap: 5px;
+}
+
+.card-stars {
+  background: url("/assets/imgs/sprites/aui-mini-sprite-2015-02.png") no-repeat -17px
+    0;
+  width: 80px;
+  height: 15px;
+}
+
+.price-prime {
+  width: 160px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 32px;
+}
+
+.card-price {
+  font-size: 19px;
+  color: #b12704;
+}
+
+.prime {
+  background: url("/assets/imgs/sprites/M9SSJsDj8YXHO4p.png") no-repeat -276px -151px;
+  width: 84px;
+  height: 19px;
+}
