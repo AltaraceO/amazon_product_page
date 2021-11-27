@@ -211,7 +211,7 @@
         </div>
         <div class="shopping_details_container">
           <div>
-            <p>$71.11</p>
+            <p class="red-price">$71.11</p>
             <p class="price">
               No Import Fees Deposit & <br />
               $59.56 Shipping to Israel <br />
@@ -221,30 +221,31 @@
               Arrives:
               <strong>Today!</strong>
             </div>
-            <!-- <p>Arrives: <strong>Today!</strong></p> -->
-            <div>
-              <img src="#" alt="" />
+            <div class="location-flex">
+              <div class="deliver-location"></div>
               <p class="blue-link">Deliver to Israel</p>
             </div>
             <p class="in-stock">In Stock</p>
-            <form action="qty">
-              <label for="num">qty</label>
-              <select name="num" id="num">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-            </form>
-            <div class="add_to_cart">
+            <div class="qty">
+              <form action="qty">
+                <label for="num">Qty:</label>
+                <select name="num" id="num">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </form>
+            </div>
+            <div class="add_to_cart click-btn">
               <p>Add to Cart</p>
             </div>
-            <div class="buy_now">
+            <div class="buy_now click-btn">
               <p>Buy Now</p>
             </div>
-            <div class="secure">
-              <img src="#" alt="" />
+            <div class="location-flex">
+              <div class="secure-sprite"></div>
               <p class="blue-link">Secure Transaction</p>
             </div>
             <table class="sale-tbody">
@@ -279,12 +280,12 @@
               Return policy: <span class="blue-link">Refundable until</span>
             </p>
             <p class="blue-link">Jan 31, 2022</p>
-            <form action="gift-reciept">
+            <form action="returns">
               <input type="checkbox" name="gift" />
               <label for="gift">Add a gift receipt for easy returns</label
               ><br />
             </form>
-            <button class="add-list">Add to List</button>
+            <button class="add-list click-btn">Add to List</button>
           </div>
         </div>
       </div>

@@ -60,13 +60,11 @@ header {
 .cart-sprite {
   background: url(/assets/imgs/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
     no-repeat -10px -340px;
-
   width: 38px;
   height: 26px;
 }
 
 .mid-header {
-  /* border: blue 1px solid; */
   display: flex;
   justify-content: left;
   text-align: center;
@@ -150,8 +148,21 @@ header {
 .shopping_details_container {
   border: 1px #d5d9d9 solid;
   border-radius: 8px;
-  padding: 14px 18px;
+  padding: 1rem 1rem;
   min-width: 244px;
+  margin-right: 1rem;
+}
+.thumb-2:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
+}
+.thumb-3:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
+}
+.thumb-1:hover {
+  border: 1px solid var(--search-orange);
+  box-shadow: 0 0 10px var(--search-orange);
 }
 
 .thumb-1 {
@@ -162,8 +173,8 @@ header {
 .large-1 {
   display: none;
   position: absolute;
-  left: 100px;
-  top: 150px;
+  left: 20%;
+  top: 20%;
 }
 
 .thumb-1:hover ~ .large-1 {
@@ -177,21 +188,8 @@ header {
 .large-2 {
   display: none;
   position: absolute;
-  left: 100px;
-  top: 150px;
-}
-
-.thumb-2:hover {
-  border: 1px solid var(--search-orange);
-  box-shadow: 0 0 10px var(--search-orange);
-}
-.thumb-3:hover {
-  border: 1px solid var(--search-orange);
-  box-shadow: 0 0 10px var(--search-orange);
-}
-.thumb-1:hover {
-  border: 1px solid var(--search-orange);
-  box-shadow: 0 0 10px var(--search-orange);
+  left: 20%;
+  top: 20%;
 }
 
 .thumb-2:hover ~ .large-2 {
@@ -206,8 +204,8 @@ header {
 .large-3 {
   display: none;
   position: absolute;
-  left: 100px;
-  top: 100px;
+  left: 20%;
+  top: 10%;
 }
 
 .thumb-3:hover ~ .large-3 {
@@ -216,7 +214,6 @@ header {
 
 .item_description_container {
   flex-grow: 2;
-  /* background-color: turquoise; */
   display: flex;
   flex-direction: column;
   min-width: 244px;
@@ -281,7 +278,106 @@ header {
   padding: 10px 0;
 }
 .features ul {
-  padding-inline-start: 14px;
+  padding-inline-start: 1rem;
   font-size: 12px;
   line-height: 17px;
+}
+
+.in-stock {
+  font-size: 16px;
+  color: var(--inStock-green);
+  padding-top: 1rem;
+}
+
+.location-flex {
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.deliver-location {
+  background: url("/assets/imgs/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -71px -306px;
+  width: 17px;
+  height: 20px;
+  color: black;
+  margin-right: 0.5rem;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 20px;
+  background-color: #e3e6e6;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px #dadada;
+  box-shadow: 2px 2px 4px lightgray;
+  cursor: pointer;
+}
+
+.qty select {
+  font-size: 10px;
+}
+
+.click-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: blanchedalmond;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.add_to_cart {
+  background-color: #ffd51a;
+}
+.add_to_cart:hover {
+  background-color: var(--add-yellow);
+}
+.buy_now {
+  background-color: #ff981d;
+}
+.buy_now:hover {
+  background-color: var(--buy-orange);
+}
+
+.secure-sprite {
+  background: url("/assets/imgs/sprites/secured-ssl._CB485936932_.png")
+    no-repeat 0 0;
+  width: 16px;
+  height: 21px;
+  margin-right: 0.5rem;
+}
+
+.sale-tbody {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.amazon-table-data {
+  color: #565959;
+}
+.returns {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.returns {
+  font-size: 14px;
+}
+
+.add-list {
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #ebedf0;
+  border: grey 1px solid;
+  border-radius: 2px;
 }

@@ -78,7 +78,7 @@ main {
 }
 
 .blue-link {
-  font-size: 14px;
+  font-size: 12px;
   color: var(--card-text-blue);
   cursor: pointer;
 }
